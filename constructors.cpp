@@ -57,7 +57,8 @@ Animal & Animal::operator=(const Animal & o) {
 }
 
 int main( int argc, char ** argv ) {
-	Animal a;
+    cout<<"Hello world \n";
+ 	Animal a;
 	a.print();
 
 	const Animal b("goat", "bob", "baah");
